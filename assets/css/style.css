@@ -56,23 +56,24 @@ html, body{
   }
   .inner{
       flex: 1;
-      padding: 15px;
       max-width: 960px;
-      max-height: 390px;
+      max-height: 400px;
       align-content: center;
       justify-content: center;
       background: #ffffff;
   }
   #aboutMe{
       color:#4aaaa5;
+      padding-left: 15px;
       padding-bottom: 20px;
       border-bottom: 3px solid #e7e7e7;
   }
   .aboutMe{
-    display:flex;
+    padding-left: 15px;
   }
   .aboutMe>p{
       margin: 5px;
+      padding: 5px;
   }
 
   footer{
@@ -93,4 +94,8 @@ html, body{
   .sep{
       color:#acacaa;
       opacity: .2;
+  }
+  img.wrap{
+      float:left;
+      padding-right: 10px;
   }
