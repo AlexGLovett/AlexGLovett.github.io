@@ -65,7 +65,7 @@ html, body{
   .inner-port{
     flex: 1;
     max-width: 960px;
-    max-height: 460px;
+    max-height: 570px;
     align-content: center;
     justify-content: center;
     background: #ffffff;
