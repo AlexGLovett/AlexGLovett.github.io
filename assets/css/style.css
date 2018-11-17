@@ -113,8 +113,12 @@ html, body{
       position: absolute;
       background: #4aaaa5;
       color: #ffffff;
-      padding: 40px;
+      top: 50%;
+      left: 10px;
+      right: 10px;
+      padding: 20px;
       text-align: center;
-      bottom: 30%;
+      text-justify: center;
+      bottom: 10%;
       opacity: 0.5;
   }
