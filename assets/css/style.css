@@ -99,3 +99,22 @@ html, body{
       float:left;
       padding-right: 10px;
   }
+  .portfolio-images{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .proj{
+    position: relative;
+  }
+  .proj>img{
+      padding: 10px;
+  }
+  .label{
+      position: absolute;
+      background: #4aaaa5;
+      color: #ffffff;
+      padding: 40px;
+      text-align: center;
+      bottom: 30%;
+      opacity: 0.5;
+  }
