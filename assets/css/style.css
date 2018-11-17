@@ -62,6 +62,14 @@ html, body{
       justify-content: center;
       background: #ffffff;
   }
+  .inner-port{
+    flex: 1;
+    max-width: 960px;
+    max-height: 460px;
+    align-content: center;
+    justify-content: center;
+    background: #ffffff;
+}
   #aboutMe{
       color:#4aaaa5;
       padding-left: 15px;
@@ -107,18 +115,17 @@ html, body{
     position: relative;
   }
   .proj>img{
-      padding: 10px;
+      padding: 10px 20px;
   }
   .label{
       position: absolute;
       background: #4aaaa5;
       color: #ffffff;
-      top: 50%;
-      left: 10px;
-      right: 10px;
-      padding: 20px;
-      text-align: center;
-      text-justify: center;
+      top: 70%;
+      left: 20px;
+      right: 20px;
       bottom: 10%;
-      opacity: 0.5;
+  }
+  .label>h3{
+      text-align: center;
   }
