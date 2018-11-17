@@ -61,6 +61,8 @@ html, body{
       align-content: center;
       justify-content: center;
       background: #ffffff;
+      padding-left: 20px;
+      padding-right: 20px;
   }
   .inner-port{
     flex: 1;
@@ -69,19 +71,21 @@ html, body{
     align-content: center;
     justify-content: center;
     background: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
 }
   #aboutMe{
       color:#4aaaa5;
-      padding-left: 15px;
       padding-bottom: 20px;
       border-bottom: 3px solid #e7e7e7;
   }
   .aboutMe{
-    padding-left: 15px;
+
   }
   .aboutMe>p{
       margin: 5px;
-      padding: 5px;
+      padding: 5px 20px 5px 5px;
+
   }
 
   footer{
@@ -115,17 +119,21 @@ html, body{
     position: relative;
   }
   .proj>img{
-      padding: 10px 20px;
+      padding: 10px 44px 10px 0;
   }
   .label{
       position: absolute;
       background: #4aaaa5;
       color: #ffffff;
       top: 70%;
-      left: 20px;
-      right: 20px;
+      left: 0;
+      right: 44px;
       bottom: 10%;
   }
   .label>h3{
       text-align: center;
+  }
+  .inner>textarea{
+    height: 150px;
+    min-width: 932px;
   }
