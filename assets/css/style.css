@@ -136,6 +136,9 @@ html, body{
   .proj>img{
       padding: 10px 44px 10px 0;
   }
+  .proj>img:hover{
+    opacity: 0.1;
+}
   .label{
       position: absolute;
       background: #4aaaa5;
