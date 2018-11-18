@@ -61,8 +61,6 @@ html, body{
       align-content: center;
       justify-content: center;
       background: #ffffff;
-      padding-left: 20px;
-      padding-right: 20px;
   }
   .inner-contact{
     flex: 1;
@@ -71,8 +69,6 @@ html, body{
     align-content: center;
     justify-content: center;
     background: #ffffff;
-    padding-left: 20px;
-    padding-right: 20px;
 }
   .inner-port{
     flex: 1;
@@ -81,8 +77,6 @@ html, body{
     align-content: center;
     justify-content: center;
     background: #ffffff;
-    padding-left: 20px;
-    padding-right: 20px;
   }
   .inner-contact>div{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -92,12 +86,17 @@ html, body{
       color:#4aaaa5;
       padding-bottom: 20px;
       border-bottom: 3px solid #e7e7e7;
+      margin-left: 20px;
+      width: 920px;
   }
   .aboutMe>p{
       margin: 5px;
-      padding: 5px 0 5px 0;
+      padding: 5px 0 5px 0px;
   }
-
+  .aboutMe{
+      max-width: 920px;
+      padding-left: 20px;
+  }
   footer{
       color: #ffffff;
       background: #666666;
@@ -122,6 +121,7 @@ html, body{
       padding-right: 10px;
   }
   .portfolio-images{
+      padding-left: 20px;
       display: flex;
       flex-wrap: wrap;
   }
@@ -143,18 +143,18 @@ html, body{
   .label>h3{
       text-align: center;
   }
+  .inner-contact>div{
+    padding-left: 20px;
+  }
   .inner-contact>div>textarea{
     height: 175px;
-    min-width: 950px;
+    min-width: 920px;
   }
   input[type=text], textarea {
-    width: 100%;
+    width: 920px;
     padding: 5px 0;
     border: 1px solid #dddddd;
-    box-sizing: border-box;
     margin: 5px 0px 15px 0px;
-    outline: none;
-    cursor: text;
 }
 input[type=submit] {
     background-color: #4aaaa5;
