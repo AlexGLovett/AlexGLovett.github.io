@@ -36,6 +36,11 @@ html, body{
     flex-flow: row wrap;
     margin:0;
   }
+  .headerNavigation>li>a:hover{
+    background: #4aaaa5;
+    color: #eeeeee;
+    padding: 10px 5px;
+  }
   header:after{
       content:" ";
       clear: both;
