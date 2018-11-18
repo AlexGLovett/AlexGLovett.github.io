@@ -96,7 +96,7 @@ html, body{
   }
   .aboutMe>p{
       margin: 5px;
-      padding: 5px 0 5px 0px;
+      padding: 0 0 5px 0px;
   }
   .aboutMe{
       max-width: 920px;
@@ -124,6 +124,7 @@ html, body{
   img.wrap{
       float:left;
       padding-right: 10px;
+      image-orientation: from-image;
   }
   .portfolio-images{
       padding-left: 20px;
